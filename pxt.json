@@ -3,16 +3,11 @@
     "version": "1.5.14",
     "description": "The micro:bit new sensor series PlanetX(行星X) with RJ11 connection port by ELECFREAKS Co.ltd",
     "dependencies": {
-        "core": "*",
-        "microphone": "*",
-        "pxt-PlanetX-AI": "github:elecfreaks/pxt-PlanetX-AI#v1.0.2"
+        "core": "*"
     },
     "files": [
         "README.md",
         "basic.ts",
-        "display.ts",
-        "wifi.ts",
-        "displaySendBuffer.asm",
         "_locales/zh-CN/pxt-PlanetX-strings.json",
         "_locales/zh-CN/pxt-PlanetX-jsdoc-strings.json",
         "_locales/nb/pxt-PlanetX-strings.json",
@@ -25,7 +20,7 @@
     ],
     "public": false,
     "targetVersions": {
-        "target": "4.0.18",
+        "target": "5.0.12",
         "targetId": "microbit"
     },
     "supportedTargets": [
